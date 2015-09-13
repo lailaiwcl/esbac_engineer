@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esper-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.espertech.com/schema/esper"
+	xsi:schemaLocation="http://www.espertech.com/schema/esper 
+	http://www.espertech.com/schema/esper/esper-configuration-2.0.xsd">
+	<event-type name="User" class="org.lailaiwcl.esbac.event.User" />
+	<event-type name="Role" class="org.lailaiwcl.esbac.event.Role" />
+	<event-type name="Resource" class="org.lailaiwcl.esbac.event.Resource" />
+	<event-type name="User_Role" class="org.lailaiwcl.esbac.event.User_Role" />
+	<event-type name="Role_Resource" class="org.lailaiwcl.esbac.event.Role_Resource" />
+	<event-type name="Session" class="org.lailaiwcl.esbac.event.Request" />
+</esper-configuration>
